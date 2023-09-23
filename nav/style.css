@@ -1,0 +1,42 @@
+body{
+    max-width:960px;
+    margin: 0 auto;
+}
+.normal{
+    line-height: 3;
+}
+
+#home{
+    color:aqua;
+}
+
+a:link{
+    color:#000;
+    text-decoration: none;
+}
+a:visited{
+    color: #ccc;
+
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+.underwave{
+    text-decoration:wavy underline lime;
+}
+
+h2:after{
+    content:"🎶"
+}
+
+footer p{
+    text-align: center;
+}
+footer p a{
+    color:coral;
+    font-size: 12px;
+
+}
