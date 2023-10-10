@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>过渡效果</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        margin: 20px;
+      }
+
+      .box {
+        background: d8rgb(65, 201, 235);
+        /*transition-property: background;*/
+        transition-duration: 0.2s;
+        transition-timing-function: linear;
+      }
+
+      .box:hover {
+        background: #3fd1e4;
+        width: 200px;
+      }
+
+      .multiprop {
+        background: #e07b28;
+        border-radius: 6px;
+        transition-property: background, border-radius;
+        transition-duration: 0.2s;
+        transition-timing-function: linear;
+      }
+
+      .multiprop:hover {
+        background: #3fd1e4;
+        border-radius: 50%;
+      }
+
+      .ease {
+        background: #e07b28;
+        /*transition-property: background;*/
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in;
+      }
+
+      .ease:hover {
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box"></div>
+    <div class="multiprop"></div>
+    <div class="ease"></div>
+  </body>
+</html>
