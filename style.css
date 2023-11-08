@@ -1,0 +1,79 @@
+body{
+    max-width:960px;
+    margin: 0 auto;
+    font-family: "华文中宋",serif;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+    background-color:;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    line-height: 3;
+}
+h2{
+    background: linear-gradient
+    (to bottom,  #cfe7fa 0%,#6393c1 100%); 
+    line-height: 2;
+    border: 1px red solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    padding-left: 0.4em;
+}
+
+div p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-indent: 2em;
+    color: #2391bc;
+  }
+
+.normal{
+    line-height: 3;
+    text-align:justify;
+}
+
+#home{
+    color:aqua;
+}
+
+a:link{
+    color:#000;
+    text-decoration: none;
+}
+a:visited{
+    color: #ccc;
+
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+.underwave{
+    text-decoration:wavy underline lime;
+}
+
+h2:after{
+    content:"🎶";
+    margin-left:2em;
+    display: ;
+    position: absolute;
+
+}
+
+footer p{
+    text-align: center;
+}
+footer p a{
+    color:coral;
+    font-size: 1.5em;
+}
+/*ul li{
+    display: inline-block;
+    width: 400;
+}

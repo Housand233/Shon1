@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>综合资源导航站</title>
+        <link rel="shortcut icon" href="Myhomeweb\icon\祥云.png" type="image/x-icon" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--<link rel="stylesheet" href="style.css"/>----->
+
+        <style>
+            ul{
+                list-style: none
+            }
+        </style>
+        <!---<style>
+			body {
+				/*加载背景图：图片地址 不平铺 */
+				background: url(header.jpg) no-repeat center center;
+				/* 让背景图基于容器大小伸缩 */
+				background-size: cover;
+				/* background-attachment设置背景图像是否固定或者随着页面的其余部分滚动。
+					scroll 背景图片随着页面的滚动而滚动，这是默认的。
+ 					fixed 背景图片不会随着页面的滚动而滚动。
+  					local 背景图片会随着元素内容的滚动而滚动。*/
+				background-attachment: fixed;
+			}
+		</style>
+        ---->
+    </head>
+    <body class ="text-pink-950">
+        <!--头部-->
+        <h1 class="font-sans font-bold text-4xl bg-orange-50 text-indigo-800  p-14 text-center border-b border-pink-100"
+        style="
+            background:url(icon/header.png) no-repeat right;
+            "
+            > 
+            Anything资源网站
+        </h1>
+        <div class="bg-orange-50"><!--参考-->
+            <div class="container mx-auto p-8 text-center">
+                <div class="flex items-center gap-2 mb-4 text-center">
+                       
+                </div>
+                <h2  class="text-center font-bold text-2xl text-orange-950 mb-8">
+                    参考
+                </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!--维基百科-->
+                    <a href="http://en.wikipedia.org">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/wikipedia.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">维基百科</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--知乎-->
+                    <a href="https://www.zhihu.com/">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/zhihu.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">知乎</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!--MBA智库-->
+                    <a href="https://wiki.mbalib.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/mbalib.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">MBA智库</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--howcast-->
+                    <a href="https://www.howcast.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/howcast.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Howcast</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--classcentral-->
+                    <a href="https://www.classcentral.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/classcentral.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">classcentral</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--TED演讲-->
+                    <a href="https://www.ted.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/ted.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">TED演讲</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--果壳-->
+                    <a href="https://www.guokr.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/guokr.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">果壳</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--worldcat-->
+                    <a href="https://www.worldcat.org/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/worldcat.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">worldcat</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--萌娘百科-->
+                    <a href="https://zh.moegirl.org.cn">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/moegirl.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">萌娘百科</h3>
+                            <p class="text-xs text-gray-400">                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--下厨房-->
+                    <a href="https://www.xiachufang.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/xiachufang.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">下厨房</h3>
+                            <p class="text-xs text-gray-400">                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--天眼查-->
+                    <a href="http://lackar.com/aa/icon/moegirl.png">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/tianyancha.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">天眼查</h3>
+                            <p class="text-xs text-gray-400">                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-lime-50"><!--编程-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-lime-950 mb-8">
+                    编程
+                </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://stackoverflow.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/stackoverflow.png?1"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">stackoverflow</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://github.com">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/github.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">github</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.w3school.com.cn">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/w3school.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">w3school</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.csdn.net">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/csdn.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">CSDN</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.cnblogs.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="https://www.cnblogs.com/images/logo.svg?v=2SMrXdIvlZwVoB1akyXm38WIKuTHVqvGD0CweV-B6cY"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">博客园</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://processing.org">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/processing.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Processing</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://v2ex.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/v2ex.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">V2EX</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="bg-teal-50"><!--新闻-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-teal-950 mb-8">
+                    新闻
+                </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://cn.reuters.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/reuters.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Reuters路透社</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="http://www.bbc.co.uk">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/bbcnews.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">BBC news</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.caixin.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/caixin.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">财新网</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="http://xinhuanet.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/xinhua.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">新华网</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.jiemian.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/jiemian.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">界面新闻</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://edition.cnn.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/cnn.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">CNN</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://news.google.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/googlenewscn.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Google新闻</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://newslookup.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/newslu.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Newslookup</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-sky-50"><!--视频-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+                
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-sky-950 mb-8">
+                    视频
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://www.youtube.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/youtube.png?1"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Youtube</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.bilibili.com">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/bilibili.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">Bilibili</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.douyin.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/dy.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">抖音</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://youku.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/youku.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">优酷</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--classcentral-->
+                    <a href="http://www.pearvideo.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/pearvideo.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">梨视频</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://v.qq.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/qqv.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">腾讯视频</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--果壳-->
+                    <a href="https://www.acfun.cn/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/acfun.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">A站</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://coub.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/coub.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">coub</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-fuchsia-50"><!--购物-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+               
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-fuchsia-950 mb-8">
+                    购物
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://www.taobao.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/taobao.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">淘宝</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.jd.com">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/jingdong.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">京东</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.amazon.cn/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/amazoncn.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">亚马逊</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.tmall.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/tmall.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">天猫</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--classcentral-->
+                    <a href="https://www.ebay.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/ebay.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">ebay</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.suning.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/suning.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">苏宁易购</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.smzdm.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src =http://lackar.com/aa/icon/smzdm.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">什么值得买</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-blue-50"><!--书籍-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+               
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-blue-950 mb-8">
+                    书籍
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="http://book.douban.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/doubanbook.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">豆瓣读书</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.duozhuayu.com/book">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/duozhuayu.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">多抓鱼</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://books.google.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/googlebook.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Google图书</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.qidian.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/qidian.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">起点中文小说网</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--classcentral-->
+                    <a href="https://www.kongfz.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/kong.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">孔夫子旧书网</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.shuge.org/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/shuge.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">书格</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://en.wikibooks.org/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/wikibooks.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Wikibooks</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/coub.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">coub</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-indigo-50"><!--电影-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+
+                
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-indigo-950 mb-8">
+                    电影
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://movie.douban.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/doubanmovie.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">豆瓣电影</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="http://www.imdb.com">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/imdb.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">IMDb</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.netflix.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/netflix.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">NetFlix</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="http://www.shooter.cn/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/shooter.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">射手网</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+
+
+            </div>
+            </div>
+        </div>
+        <div class="bg-cyan-50"><!--游戏-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-cyan-950 mb-8">
+                    游戏
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://store.steampowered.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/steam.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Steam</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="http://ign.com/">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/ign.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">IGN</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.ali213.net">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/ali213.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">游侠网</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.twitch.tv/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/twitch.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Twitch</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://cowlevel.net">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/cowlevel.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">奶牛关</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://nga.cn">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/nga.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">NGA玩家社区</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://itch.io/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/itchio.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">itch</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="bg-green-50"><!--旅行-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+                
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-green-950 mb-8">
+                    旅行
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://search.qyer.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/qyer.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">穷游网</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.mafengwo.cn">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/mafengwo.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">马蜂窝</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.google.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/googlemaps.png?1"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">谷歌地图</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://earth.google.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/googleearth.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">谷歌地球</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.tripadvisor.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/TripAdvisor.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">tripadvisor</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.lonelyplanet.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/lonelyplanet.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">LonelyPlanet</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://en.wikivoyage.org">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/wikivoyage.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Wikivoyage</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="bg-red-50"><!--图片-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-red-950 mb-8">
+                    图片
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://flickr.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/flickr.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">flickr</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.google.com/imghp">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/googleimage.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">谷歌图片</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.pinterest.jp">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/pinterest.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Pinterest</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://unsplash.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/unsplash.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">unsplash</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--classcentral-->
+                    <a href="https://www.freepik.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/freepik.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">freepik</h3>
+                            <p class="text-xs text-gray-400">   
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://huaban.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/huaban.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">花瓣网</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!--果壳-->
+                    <a href="https://www.lofter.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/lofter.png?w"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">lofter</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://creativemarket.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/creativemarket.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">creativemarket</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://imagefinder.co">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/imagefinder.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">imagefinder</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://imgur.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/imgur.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">imgur</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.douban.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/doubanalbum.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">豆瓣相册</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.skypixel.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/skypixel.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">天空之城</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-violet-50"><!--其他-->
+            <div class="container mx-auto p-8">
+                <div class="flex items-center gap-2 mb-4">
+                
+                </div>
+                <h2 id="home" class="text-center font-bold underwave text-2xl text-violet-950 mb-8">
+                    其他
+                  </h2>
+            <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+                <div class="card"><!---->
+                    <a href="https://www.ishayoga.net">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/isha.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Isha瑜伽</h3>
+                            <p class="text-xs text-gray-400">
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://xueqiu.com">
+                    <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                    >
+                        <img
+                        src="http://lackar.com/aa/icon/xueqiu.png"
+                        class="block w-12 h-12"
+                        />
+                        <div>
+                        <h3 class="font-bold mb-2">雪球</h3>
+                        <p class="text-xs text-gray-400"></p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://forvo.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/forvo.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">forvo</h3>
+                            <p class="text-xs text-gray-400">
+                            
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://wenshu.court.gov.cn">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/wenshu.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">中国裁判文书网</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.zhipin.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/bosszp.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">BOSS直聘</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.deepl.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/deepl.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">Deepl翻译</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.qcc.com">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/qichacha.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">企查查</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+                <div class="card"><!---->
+                    <a href="https://www.sf-express.com/">
+                        <div
+                        class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+                        >
+                            <img 
+                                src ="http://lackar.com/aa/icon/sf.png"
+                                class="block w-12 h-12"
+                            />
+                            <div>
+                            <h3 class="font-bold mb-2">顺丰快递追踪</h3>
+                            <p class="text-xs text-gray-400">
+        
+                            </p>
+                            </div>
+                        </div>            
+                    </a>
+                </div>
+
+
+            </div>
+            </div>
+        </div>
+
+        <div class="bg-violet-50"style="display:flex;justify-content:center;">
+            <img src="icon/footer.png" alt="图片" style="margin:40px;">
+         </div>
+         
+        </div>
+            <!--页脚部分-->
+            <footer class="bg-gray-200 flex-row ">
+                <p class="text-center">
+                    <a href="https://Housand.cn">~~~~~~~~~~~~~~~~~~Housand.cn~~~~~~~~~~~~~~~~~~</a>
+                </p>
+        
+            </footer>
+                <div>
+                    <p class=" text-xxs text-indigo-400  text-center   pt-8 ">
+                        心静如止水，志刚如磐石，静默守星月之变，怀志付诸行日月乾坤之朗朗。日行千里不言其路之遥，夜跃八百不语其道之艰。<br>
+                        故曰，“天行健，君子以自强不息；地势坤，君子以厚德载物。”<br>
+                        德，人之本也，学，士之利也。自强而德厚，君子之大宗也。<br>
+                        故为君子，当以优学服人，志坚傲人，耐苦强人，高德威人。自强而不息，厚德以载物，是可大成也。
+                    </p>
+                    <p style="margin:20px";> 
+                    ******************************************************************************************************************************************************************************************       
+                    </p>
+                </div>
+                <div id="footer"
+    </body>
+</html>
